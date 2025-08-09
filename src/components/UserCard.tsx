@@ -24,7 +24,7 @@ export const UserCard = ({ name, imgUrl, address, email }: CardUserProps) => {
 
       {isDetailShown && (
         <div className="px-3 pb-3">
-          <UserCardDetail email={email} address={address} />
+          <UserCardDetail email={email} address={address} name={""} imgUrl={""} />
         </div>
       )}
     </div>
